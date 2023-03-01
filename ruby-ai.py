@@ -1,12 +1,13 @@
 # Importing libraries
 import numpy as np
 import tensorflow as tf
-from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate
+from tensorflow.keras.layers import Input, Dense, Reshape, Flatten, Dropout, Concatenate, LeakyReLU
 from tensorflow.keras.layers import BatchNormalization, Activation, ZeroPadding2D, UpSampling2D, Conv2D
 from tensorflow.keras.models import Sequential, Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.datasets import mnist
 from colorama import Fore, Back, Style
+
 import time
 import os
 
