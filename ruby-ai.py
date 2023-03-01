@@ -11,7 +11,6 @@ import time
 import os
 
 os.system("cls")
-print(Fore.YELLOW + """Before running, please make sure all the modules are installed! If not, you can install them via this command: 'python -m pip install -r requirements.txt'!""")
 time.sleep(4)
 os.system("cls")
 
